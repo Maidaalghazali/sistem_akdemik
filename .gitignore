@@ -1,3 +1,49 @@
+# Abaikan semua file
 *
-!data/
+
+# Tapi tetap track file & folder penting berikut:
+
+# Laravel core folders
+!app/
+!bootstrap/
+!config/
+!database/
+!public/
+!resources/
+!routes/
+!storage/
+!tests/
+
+# File konfigurasi & kunci
+!artisan
+!composer.json
+!composer.lock
+!package.json
+!package-lock.json
+!phpunit.xml
+!tailwind.config.js
+!vite.config.js
+!postcss.config.js
+!README.md
+!.editorconfig
+!.gitattributes
+
+# Ijinkan .gitignore
 !.gitignore
+
+# Contoh file environment (jangan .env asli)
+!.env.example
+
+# Abaikan file sensitif & tidak perlu
+.env
+/vendor/
+/node_modules/
+/storage/*.key
+/storage/*.log
+/public/storage
+.phpunit.result.cache
+.phpstorm.meta.php
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
